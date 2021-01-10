@@ -1,0 +1,168 @@
+body {
+  font-family: 'Ubuntu', 'sans-serif';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat";
+}
+
+p {
+  color: #8f8f8f;
+}
+/* container section */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+background-color: #ffff;
+}
+/* big headding */
+.big-headding {
+  font-size: 3.5rem;
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+/* -----------Navigation Bar --------------------------------*/
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', 'sans-serif';
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/*-------------------------Button--------------------------------*/
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/*-------------------- title section ----------------------------*/
+#title {
+
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* ----------------------title image ------------------*/
+.title-img {
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/*-------------------- Features section ------------------*/
+#features {
+
+  position: relative;
+}
+
+.feature-text {
+  font-size: 1.5rem;
+}
+
+.features-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*---------------------- testimonials section--------------------------- */
+
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+  margin-bottom: 70px;
+}
+
+/* -------------press section--------------- */
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*----------- pricing section --------------*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-card-text {
+  font-size: 1.5rem;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+/*----------------------- (cta)  call to action section-------------------- */
+
+
+.cta-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #ffff;
+}
+
+.last-btn {
+  margin: 20px;
+}
+
+/* ----------------------footer section ---------------------*/
+.fab {
+  margin: 10px;
+}
+
+.fas {
+  margin: 10px;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
